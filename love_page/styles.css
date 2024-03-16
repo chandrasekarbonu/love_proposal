@@ -1,0 +1,102 @@
+*{
+    margin: 0px;
+}
+.container{
+    position: relative;
+    background-color: pink;
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+h1{
+    font-family: cursive;
+}
+.btn{
+    margin-top: 40px;
+    display: flex;
+    width: 300px;
+    justify-content: space-between;
+}
+
+button{
+    border: 1px solid rgb(244, 160, 174);
+    color: rgb(255, 0, 187);
+    border-radius: 5px;
+    font-size: larger;
+    width: 80px;
+    height: 30px;
+    background-color: rgb(235, 222, 222);
+    font-family: cursive;
+    box-shadow: 5px 5px 5px rgb(112, 107, 107);
+}
+
+button:hover{
+    background-color: pink;
+    color:white;
+    transition: 0.2s;
+}
+
+.love-container{
+    display: flex;
+    margin-bottom: 10px;
+}
+
+.heart{
+    width: 40px;
+    height: 40px;
+}
+
+.cry{
+    mix-blend-mode: multiply;
+    background-image: none;
+    width: 60px;
+    height: 60px;
+}
+.browine{
+    width: 300px;
+    height: 250px;
+}
+.con1{
+    background-color: pink;
+    width: 100vw;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+.con1 h1{
+    font-size: 100px;
+}
+.click{
+    width: 150px;
+    height: 50px;
+    border-radius: 15px;
+}
+
+.no1{
+    position: absolute;
+    top:200px;
+    left: 200px;
+    transition: 1s;
+}
+
+.yay{
+    font-size: 100px;
+}
+.yes{
+    font-size: 200px;
+}
+p{
+    font-size: 50px;
+    margin-bottom: 150px;
+    font-family: cursive;
+}
+
+.marg{
+    margin-bottom: 50px;
+}
+
